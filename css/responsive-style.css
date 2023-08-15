@@ -1,0 +1,225 @@
+/* in width 993px max width 1400px */
+
+@media (min-width:993px) and (max-width:1200px)   {
+    .nav-btn {
+        margin-right: -30px;
+    }
+
+
+
+    .navigation-bar {
+        position: relative;
+    }
+    
+}
+
+
+
+
+
+
+
+/* in width 993px max width 1400px end */
+
+
+
+
+
+
+
+/* min width 768px max width 992px */
+
+@media (min-width:786px) and (max-width: 992px) {
+
+
+    /* nav bar btn center */
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items : center;
+        flex-direction: column;
+    }
+    .main-btn {
+        width: 150px;
+        margin-right: 0px;
+    }
+        /* nav bar btn center end */
+
+        
+        /* white-btn  */
+    .white-btn {
+        margin-top: 0 !important;
+        margin-left: 15px;
+    }
+        /* white-btn end  */
+
+
+/* background image  */
+    .top-banner {
+        background-image: url(../assests/images/background/bg.jpg);
+        background-repeat: no-repeat;
+        background-size:140% 90%;
+        background-position:top;
+    }
+/* background image end  */
+
+
+
+
+}
+
+
+
+
+/* min width 768px max width 992px end */
+
+
+
+
+
+
+
+/* min width 576px max width 767px */
+
+@media (min-width:576px) and (max-width: 785px) {
+    
+/* nav bar btn center */
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items : center;
+        flex-direction: column;
+    }
+    .main-btn {
+        width: 150px;
+        margin-right: 0px;
+    }
+        /* nav bar btn center end */
+
+        
+        /* white-btn  */
+    .white-btn {
+        margin-top: 0 !important;
+        margin-left: 15px;
+    }
+        /* white-btn end  */
+
+
+/* background image  */
+    .top-banner {
+        background-image: url(../assests/images/background/bg.jpg);
+        background-repeat: no-repeat;
+        background-size:140% 90%;
+        background-position:top;
+    }
+/* background image end  */
+
+
+    h1 {
+        font-size: 35px;
+    }
+    p {
+        font-size: medium;
+        font-weight: 500;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* min width 576px max width 767px end */
+
+
+
+
+/* min width 0px max width 575px */
+
+@media (min-width:355px) and (max-width: 575px) {
+    /* nav bar btn center */
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items : center;
+        flex-direction: column;
+    }
+    .main-btn {
+        width: 150px;
+        margin-right: 0px;
+    }
+        /* nav bar btn center end */
+
+        
+        /* white-btn  */
+    .white-btn {
+        margin-top: 0 !important;
+        margin-left: 15px;
+    }
+        /* white-btn end  */
+
+
+/* background image  */
+    .top-banner {
+        background-image: url(../assests/images/background/bg.jpg);
+        background-repeat: no-repeat;
+        background-size:140% 85%;
+        background-position:top;
+        padding:9.375rem  9.375rem ;
+    }
+/* background image end  */
+
+
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size:15px;
+        font-weight: 500;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* min width 354px */
+
+
+@media (max-width:355px) {
+    .white-btn {
+        margin-left: 0;
+        margin-top: 15px;
+        transform: scale(0.9);
+    }
+    .nav-btn {
+        transform: scale(0.9);
+
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+    .top-banner {
+        background-image: url(../assests/images/background/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 44px;
+        padding: 9.375rem 9.375rem;
+    }
+}

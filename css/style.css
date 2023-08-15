@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color:black !important;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* 
+custom scroll bar */
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(188, 37, 37);
+}
+/* custom scroll bar end */
+
+
+
+/* custom css design */
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: rgb(99, 53, 50);
+    
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3rem;
+}
+
+h4 {
+    color: brown;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    color:rgb(188, 37, 37);
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+}
+
+.main-btn {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: rgb(188, 37, 37);
+    border-end-end-radius: 0.1875rem solid rgb(188, 37, 37);
+    color: white;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition:  all .4s ease-out 0s;
+    -moz-transition:  all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+
+.white-btn {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    margin-left: -200px;
+    line-height: 1.5625rem;
+    background-color: white;
+    border-end-end-radius: 0.1875rem solid white;
+    color: rgb(188, 37, 37);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition:  all .4s ease-out 0s;
+    -moz-transition:  all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    color:rgb(188, 37, 37);
+    border-color: rgb(188, 37, 37) ;
+}
+
+.white-btn:hover {
+    background-color: transparent;
+    color:white;
+    border-color: rgb(188, 37, 37) ;
+    background-color: rgb(188, 37, 37);
+}
+
+.wrapper {
+    padding-top: 8.25rem;
+    padding-bottom :8.25rem;
+}
+
+.text-content {
+    width: 70%;
+    margin: auto;
+}
+
+.counter-section h2,
+.testimonial-section h2,
+.book-food-text h2 {
+    color: white;
+}
+
+/* 
+custom css design end
+*/
+
+
+
+
+/* nav Design  */
+
+.navigation-bar {
+    background-color: rgb(244, 244, 244) !important;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition:all 0.3s ease-out;
+    transition:all 0.3s ease-out;
+}
+
+.navigation-bar .nav-item {
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(188, 37, 37);
+    letter-spacing: 1px;
+}
+
+.navigation-bar .main-btn {
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+ }
+
+/* change navbar style on scroll */
+.navigation-bar.scroll-on {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0125rem 1.75rem 0 rgb(0,0,0,0.09);
+    transition: all 15s ease-in-out;
+}
+
+/* Header Design End */
+
+
+
+
+ /* section 01 top banner */
+
+.top-banner {
+    width: 100%;
+    background-image: url(../assests/images/background/bg.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+
+
+    /* section 01 home end */
+
+
+
+
+    /* section 02 about */
+
+
+
+
+
+
+
+    
+    /* section 02 about end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
